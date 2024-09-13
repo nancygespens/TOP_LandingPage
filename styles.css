@@ -1,25 +1,28 @@
-
-body {
-    font-family: Roboto;
+* {
+    font-family: Montserrat;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 /* HEADER */
 
-.header {
-    display: flex;
-    max-width: 1080px;
+.header-container {
     padding: 10px 30px;
-    margin: 0 auto;
     background-color: #2e35f1;
-    align-items: center;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;    
 }  
 
-.logo {
+.header {
+    /* border: 1px solid #fff; */
+    width: 1080px;
     display: flex;
+    justify-content: space-between;
+}
+
+.logo {
     height: auto;
     width: 50px;
 }
@@ -29,81 +32,70 @@ body {
     align-items: center;
 }
 
+.icons {
+    display: flex;
+}
+
 .text-header {
     color: white;
     font-size: 15px;
     font-weight: bold;
-    vertical-align: middle;
     padding-right: 5px;
 }
 
-.github, .odin {
+.github, .odin, .help {
     height: auto;
     width: 30px;
     padding-left: 5px;
 }
 
 
-/* CONTAINER */
-/* 
-.block-one {
-    display: flex;
-    max-width: 1080px;
+/* BLOCKS */
+
+.block-container {
     padding: 40px 30px;
-    margin: 0 auto;
-    height: 100%;
-    background: black;
-    align-items: center;
-    justify-content: space-between;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}  
+
+.block-one {
+    /* border: 1px solid #fff;  */
+    width: 1080px;
+    display: flex;
     gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .text-one {
     color: white;
     font-size: 15px;
-    vertical-align: middle;
-    width: 400px;
-    max-width: 100%;
+    min-width: 300px;
 }
 
 .p-one, .p-two {
     font-weight: lighter;
+    padding-top: 20px;
 }
 
 .img-one {
-    height: auto; 
-    max-width: 100%;
-    width: 400px;
+    height: auto;
+    width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-one {
-    background-color: #2e35f1;
     color: white;
-    font-size: 15px;
     font-weight: bold;
-    border: 0;
-    padding: 10px;
-    height: 50px;
-    width: 200px;
-    border-radius: 10px;
-} */
-
-
-/* BACKGROUND */
-
-.background {
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.bg-one {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
+    font-size: 15px;
     background-color: #2e35f1;
-    z-index: -1;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
 }
-
-
