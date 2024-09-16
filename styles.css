@@ -52,7 +52,8 @@
 
 /* BLOCKS */
 
-.block-container {
+/* 1 */
+.block-container-one {
     padding: 40px 30px;
     background-color: black;
     display: flex;
@@ -62,7 +63,6 @@
 .block-one {
     /* border: 1px solid #fff;  */
     width: 1080px;
-    display: flex;
     gap: 30px;
     display: flex;
     justify-content: center;
@@ -99,3 +99,40 @@
     width: 200px;
     margin-top: 20px;
 }
+
+/* 2 */
+.block-container-two {
+    padding: 0 30px 40px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+} 
+
+.motivation {
+    /* border: 1px solid black; */
+    width: 1080px;
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 40px 30px;
+    color: #2e35f1;
+}
+
+.motivation-one, .motivation-two, .motivation-three, .motivation-four {
+    /* border: 1px solid black; */
+    max-width: 200px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.icon-one, .icon-two, .icon-three, .icon-four {
+    height: 60px;
+    width: 60px;
+    padding-bottom: 10px;
+}
+
