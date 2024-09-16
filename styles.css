@@ -54,7 +54,7 @@
 
 /* 1 */
 .block-container-one {
-    padding: 40px 30px;
+    padding: 50px 30px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@
 
 /* 2 */
 .block-container-two {
-    padding: 0 30px 40px 30px;
+    padding: 0 30px 50px 30px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@
 
 h2 {
     text-align: center;
-    padding: 40px 30px;
+    padding: 50px 30px;
     color: #2e35f1;
 }
 
@@ -136,3 +136,29 @@ h2 {
     padding-bottom: 10px;
 }
 
+/* 3 */
+.block-container-three {
+    padding: 100px 30px;
+    background-color: #2e35f1;
+    display: flex;
+    justify-content: center;    
+}
+
+.text-three {
+    /* border: 1px solid white; */
+    width: 1080px;
+    gap: 30px;
+    color: white;
+}
+
+.p-three {
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.p-four {
+    font-size: 10px;
+    text-align: end;
+    font-weight: bold;
+}
