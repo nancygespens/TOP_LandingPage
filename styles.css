@@ -12,7 +12,7 @@
     padding: 10px 30px;
     background-color: #2e35f1;
     display: flex;
-    justify-content: center;    
+    justify-content: center;  
 }  
 
 .header {
@@ -38,7 +38,7 @@
 
 .text-header {
     color: white;
-    font-size: 15px;
+    font-size: 11px;
     font-weight: bold;
     padding-right: 5px;
 }
@@ -58,6 +58,7 @@
     background-color: black;
     display: flex;
     justify-content: center;
+
 }  
 
 .block-one {
@@ -71,7 +72,7 @@
 
 .text-one {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     min-width: 300px;
 }
 
@@ -91,7 +92,7 @@
 .button-one {
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 11px;
     background-color: #2e35f1;
     border: 0;
     border-radius: 10px;
@@ -117,7 +118,7 @@
     gap: 30px;
 }
 
-h2 {
+.h-one {
     text-align: center;
     padding: 50px 30px;
     color: #2e35f1;
@@ -125,8 +126,8 @@ h2 {
 
 .motivation-one, .motivation-two, .motivation-three, .motivation-four {
     /* border: 1px solid black; */
-    max-width: 200px;
-    font-size: 10px;
+    max-width: 240px;
+    font-size: 11px;
     text-align: center;
 }
 
@@ -138,27 +139,77 @@ h2 {
 
 /* 3 */
 .block-container-three {
-    padding: 100px 30px;
+    padding: 50px 30px;
     background-color: #2e35f1;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+    align-content: center;  
 }
 
 .text-three {
     /* border: 1px solid white; */
     width: 1080px;
     gap: 30px;
-    color: white;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 .p-three {
     font-style: italic;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
+    text-align: left;
 }
 
+
 .p-four {
-    font-size: 10px;
+    font-size: 11px;
     text-align: end;
     font-weight: bold;
 }
+
+.img-two {
+    height: auto;
+    width: 300px;
+    /* padding-bottom: 10px; */
+}
+
+/* 4 */
+.block-container-four {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+.border {
+    width: 1080px;
+    gap: 30px;
+    color: white;
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+.sign-up {
+    font-size: 11px;
+}
+
+.button-two {
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #2e35f1;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
