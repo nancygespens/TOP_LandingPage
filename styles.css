@@ -213,3 +213,24 @@
     width: 100px;
 }
 
+/* FOOTER */
+
+.footer {
+    background: #2e35f1;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.footer-content {
+    width: 1080px;
+    color: white;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.text-footer {
+    font-size: 11px;
+}
