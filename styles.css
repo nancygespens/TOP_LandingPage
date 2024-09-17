@@ -234,3 +234,10 @@
 .text-footer {
     font-size: 11px;
 }
+
+
+
+button:hover {
+    background-color: #1F62DE;
+    transition: 0.7s;
+}
